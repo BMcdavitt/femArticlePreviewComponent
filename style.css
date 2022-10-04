@@ -47,7 +47,7 @@ main {
   color: hsl(217, 19%, 35%);
 }
 
-.contentHolder article {
+.contentHolder div {
   margin: 0.9375rem 0;
 }
 

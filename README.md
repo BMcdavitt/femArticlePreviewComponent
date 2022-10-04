@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL:](https://github.com/BMcdavitt/femArticlePreviewComponent)
-- [Live Site URL: Add live site URL here](#)
+- [Live Site URL: Add live site URL here](https://bmcdavitt.github.io/femArticlePreviewComponent/)
 
 ## My process
 
