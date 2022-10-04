@@ -184,6 +184,26 @@ footer {
   }
 }
 
+@keyframes removeOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes addOpacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 @media screen and (min-width: 50rem) {
   main {
     flex-direction: row;

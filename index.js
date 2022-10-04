@@ -24,10 +24,10 @@ function toggleFooterOn() {
     let nvPosition = vPosition + 50
     tooltip.style.left = hPosition + 'px'
     tooltip.style.top = vPosition + 'px'
-    tooltip.style.opacity = 1
+    tooltip.style.animation = 'removeOpacity 1s forwards'
     tooltipNipple.style.left = nhPosition + 'px'
     tooltipNipple.style.top = nvPosition + 'px'
-    tooltipNipple.style.opacity = 1
+    tooltipNipple.style.animation = 'removeOpacity 1s forwards'
   }
 }
 
@@ -51,8 +51,9 @@ function toggleFooterOff() {
     footer.style.animation = 'revertColor 1s forwards'
     footerShare.style.animation = 'revertColor 1s forwards'
   } else {
-    tooltip.style.opacity = 0
-    tooltipNipple.style.opacity = 0
+
+    tooltip.style.animation = 'addOpacity 1s forwards'
+    tooltipNipple.style.animation = 'addOpacity 1s forwards'
   }
 }
 
